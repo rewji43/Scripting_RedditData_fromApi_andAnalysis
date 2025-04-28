@@ -37,7 +37,7 @@ reddit_collection.create_index([('id',pymongo.ASCENDING)] , unique = False)
 
 if __name__ == '__main__':
     #Set ค่าต่างๆสำหรับในการใช้ api
-    reddit = praw.Reddit(client_id = 'yaMdjnRgR55yvQ',                         client_secret='HWv6UlEMDqwbKRDoyICDPHkZ1jM',                          user_agent='Rewji',                          username='rewji',                          password='rewwin0973189054')
+    reddit = praw.Reddit(client_id = 'your_id',                         client_secret='your_cs',                          user_agent='your_name',                          username='username',                          password='pass')
 
     subreddit = reddit.subreddit('BlackPink')  #ค้นหาจากตรงนี้
 
